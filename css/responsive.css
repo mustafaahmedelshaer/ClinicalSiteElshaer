@@ -1,0 +1,252 @@
+/* zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+ */
+/* -----------------Nav Bar ----------------------------------------*/
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .navimg {
+    width: 4em !important;
+  }
+  .firstBar {
+    font-size: 10px;
+  }
+  .loginBTNS {
+    display: none !important;
+  }
+  .logo-in-menu {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .loginBTNS {
+    display: none !important;
+  }
+  .navimg {
+    width: 4em !important;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .navimg {
+    width: 4em !important;
+  }
+  .logo-in-menu {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .loginBTNS {
+    display: flex !important;
+  }
+  .logo-in-menu {
+    display: flex;
+  }
+}
+/* zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+ */
+/* -----------------Footer ----------------------------------------*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .stayConnectedIcon {
+    width: 20px;
+  }
+  .iconContainer {
+    height: 35px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .iconContainer {
+    height: 45px;
+  }
+}
+/* ----------------- News----------------------------------------*/
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .txt1 {
+    font-size: 1em !important;
+  }
+  .txt2 {
+    font-size: 0.7em !important;
+  }
+  .txt3 {
+    font-size: 0.8em;
+  }
+  .NewsDetailsGrid {
+    order: 2;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .P-A-caption-H {
+    font-size: 12px;
+  }
+  .popularArticlesDates {
+    font-size: 10px;
+  }
+  .P-A-imgs {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  .box-Hedaer-News {
+    font-size: 1.2em;
+  }
+  .categoryLinks p {
+    font-size: 12px;
+  }
+  .searchInput {
+    padding-left: 1px;
+    font-size: 9px;
+  }
+  .txt1 {
+    font-size: 1em !important;
+  }
+  .txt2 {
+    font-size: 0.7em !important;
+  }
+  .txt3 {
+    font-size: 0.8em;
+  }
+}
+
+/* zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+ */
+/* ----------------- Doctors Page ----------------------------------------*/
+
+@media only screen and (min-width: 992px) {
+  .serachContainer {
+    width: 50%;
+    margin: auto;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .DocorsPagesearchInput {
+    font-size: 0.9em;
+  }
+}
+
+/* zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+ */
+/* ----------------- Appointment Page ----------------------------------------*/
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .bookingForm label {
+    font-size: 0.9em;
+  }
+  #inputState {
+    font-size: 14px;
+  }
+  .bookingForm input {
+    font-size: 12px;
+  }
+  .rating > label {
+    font-size: 1.4em;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .rating > label {
+    font-size: 1.4em;
+  }
+}
+
+/* zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+ */
+/* ----------------- Gallery----------------------------------------*/
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) {
+  .galleryIcons {
+    display: none !important;
+  }
+  td {
+    font-size: 13px;
+  }
+}
+
+/* zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+ */
+/* ----------------- user-profile ----------------------------------------*/
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .navText {
+    font-size: 12px;
+  }
+}
+
+/* zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+ */
+/* ----------------- Register-profile ----------------------------------------*/
+
+@media only screen and (max-width: 600px) {
+  .RegisterTitle {
+    font-size: 18px;
+  }
+}
+
+/* zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+ */
+/* ----------------- about us ----------------------------------------*/
+
+@media only screen and (max-width: 600px) {
+  .valuesTab {
+    flex-direction: row !important;
+    justify-content: space-around;
+    margin-bottom: 8px;
+    padding: px;
+  }
+  .valuesTab a {
+    font-size: 13px;
+  }
+}
+
+/* zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+ */
+/* ----------------- FAQ ----------------------------------------*/
+@media only screen and (max-width: 768px) {
+  .FaqSearchContainer {
+    font-size: 1em;
+    width: 100% !important;
+  }
+  .faQcard {
+    font-size: 0.8em;
+  }
+  .collapseQ {
+    font-size: 0.8em;
+  }
+  .FaqSearchContainer input {
+    font-size: 1em;
+  }
+}
+
+/* zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+ */
+/* ----------------- Doc Portifolio ----------------------------------------*/
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .DoctorName {
+    font-size: 2.5em;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .DoctorName {
+    margin-top: 2em;
+    font-size: 2.5em;
+  }
+  #doctorHeader {
+    height: 900px;
+  }
+  .docFrame {
+    height: 900px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .DoctorName {
+    font-size: 1.7em;
+  }
+  .doc-H-D {
+    font-size: 13px;
+  }
+}

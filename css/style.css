@@ -1,0 +1,1247 @@
+.pickr {
+  position: fixed;
+  z-index: 100;
+  top: 50%;
+  background-image: url(../imgs/color-picker.svg);
+}
+.pickr .pcr-button {
+  width: 3em;
+  height: 3em;
+}
+
+.pickr .pcr-button:after {
+  background: transparent !important;
+}
+.pickr .pcr-button:after,
+.pickr .pcr-button:before {
+  background-image: url(../imgs/color-picker.svg) !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.pcr-app button.pcr-active,
+.pcr-app button:focus,
+.pcr-app input.pcr-active,
+.pcr-app input:focus,
+.pickr button.pcr-active,
+.pickr button:focus,
+.pickr input.pcr-active,
+.pickr input:focus {
+  box-shadow: none !important;
+}
+button:focus {
+  outline: none !important;
+}
+/* zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+ */
+/* -----------------General Setting ----------------------------------------*/
+* {
+  box-sizing: border-box;
+  font-family: var(--fontText);
+}
+:root {
+  --MainColor: rgb(124, 34, 34);
+  --SecondColor: rgb(230, 228, 228);
+  --fontText: "Domine", serif;
+}
+
+.TextMainColor {
+  color: var(--MainColor) !important;
+}
+
+.bgMainColor {
+  background-color: var(--MainColor);
+  color: white;
+}
+.bgSecColor {
+  background-color: var(--SecondColor) !important;
+  color: black !important;
+}
+
+section h1 {
+  letter-spacing: 3px !important;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+p {
+  color: rgb(124, 124, 124);
+}
+.SectionHeader {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  font-family: fantasy;
+}
+/* Social Icons */
+
+.iconscontainer {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+.socialicons a {
+  color: white !important;
+  font-size: large;
+  text-decoration: none;
+}
+.socialicons .facebook:hover {
+  border-radius: 50%;
+  background-color: rgb(250, 250, 253) !important;
+}
+.socialicons .facebook:hover svg {
+  color: blue !important;
+}
+
+.socialicons .twitter:hover {
+  border-radius: 50%;
+  background-color: rgb(250, 250, 253) !important;
+}
+.socialicons .twitter:hover svg {
+  color: blue !important;
+}
+
+.socialicons .instagram:hover {
+  border-radius: 50%;
+  background: #d6249f;
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.25);
+}
+.socialicons .instagram:hover svg {
+  color: #fff;
+}
+
+/* zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+ */
+
+/* -----------------nav bar  ----------------------------------------*/
+
+.Mainbar {
+  background-color: var(--SecondColor) !important;
+}
+
+.navBTN {
+  background-color: white;
+  color: black !important;
+}
+.Hotline {
+  position: fixed;
+  right: 1%;
+  bottom: 10%;
+  z-index: 2;
+}
+.profileIcon {
+  height: 100%;
+}
+.navLogo-menu {
+  display: none !important;
+}
+.loginBTNS {
+  display: flex;
+}
+/* zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+ */
+
+/* page banner  */
+
+#pageBanner {
+  background-image: url(../imgs/backgroundHomeHeader.jpg);
+  width: 100%;
+  height: 50vh;
+  min-height: 300px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/* ----------------- FOOTER  ----------------------------------------*/
+#footer {
+  background-color: var(--SecondColor) !important;
+  font-size: 13px !important;
+  color: black !important;
+}
+.footerLogo {
+  width: 7em;
+}
+.footerBreakLine {
+  margin-top: 6px;
+  display: block;
+  border-top: 2px solid rgb(0, 0, 0);
+  width: 25%;
+  height: 3px;
+}
+.iconContainer {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  margin-right: 10px;
+}
+.stayConnectedIcon {
+  width: 25px;
+}
+
+.EmergencyNumber {
+  font-size: 5em;
+  color: var(--MainColor);
+}
+
+.footerLinks ul a:hover {
+  color: var(--MainColor) !important;
+  font-weight: bold;
+}
+
+.aboutLinks {
+  line-height: 2em;
+}
+
+.StayConnected {
+  width: 100%;
+  height: 50px;
+  display: flex;
+}
+
+.copyright {
+  background-color: rgb(163, 162, 162);
+}
+/* zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+ */
+/* ----------------- Index  ----------------------------------------*/
+#Header {
+  background-image: url(../imgs/backgroundHomeHeader.jpg);
+  width: 100%;
+  height: 100vh;
+  min-height: 700px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+#Header h1 {
+  letter-spacing: 3px !important;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+#Header .Frame {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  min-height: 700px;
+
+  background-color: rgba(218, 145, 145, 0.2);
+}
+#Header .headerimg {
+  height: 70%;
+  border-radius: 0% 48% 10% 53% / 10% 10% 7% 39%;
+}
+
+.MainColor {
+  background-color: var(--MainColor);
+  color: var(--white);
+}
+
+/* -------------- End Header -------------------------- */
+
+/* -------------- Doctors -------------------------- */
+.DoctorCard {
+  border-radius: 20px 20px;
+  position: relative;
+  background-color: rgb(240, 240, 240);
+}
+.caption {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  border-radius: 20px 20px;
+  transition: 0.5s ease;
+  background-color: rgba(110, 110, 110, 0.8);
+  opacity: 0;
+  color: white;
+  font-size: 0.8rem;
+}
+
+.DoctorCard:hover .caption {
+  opacity: 1;
+}
+/* End Doctors */
+
+/* -------------- Testimonial -------------------------- */
+
+.testemonialCaption {
+  border: 1px solid rgb(214, 211, 211) !important;
+  border-radius: 25px 25px;
+}
+.rating {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+}
+
+.rating > input {
+  display: none;
+}
+.rating > label {
+  position: relative;
+  width: 0.5em;
+  font-size: 2vw;
+  color: #ffd600;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.rating > label::before {
+  content: "\2605";
+  position: absolute;
+  opacity: 1;
+}
+/*
+
+.rating > label:hover:before,
+.rating > label:hover ~ label:before {
+  opacity: 1 !important;
+}
+
+.rating > input:checked ~ label:before {
+  opacity: 1;
+}
+*/
+
+.owl-dots {
+  margin-top: 2rem;
+  text-align: center;
+}
+.owl-dots button {
+  background-color: rgb(142, 142, 143) !important;
+
+  border-radius: 50%;
+  width: 10px;
+  height: 11px;
+  margin: 5px;
+}
+.owl-dots button:focus {
+  outline: none;
+  background-color: var(--MainColor) !important;
+}
+.owl-dot .active:focus {
+  border: 0px solid !important;
+}
+
+.owl-nav {
+  display: none;
+}
+/* -------------- End Testimonial -------------------------- */
+
+/* -------------- Gallery -------------------------- */
+
+#gallery {
+  background-image: url(../imgs/backgroundHomeHeader.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-attachment: fixed;
+  padding-top: 2em;
+}
+
+.swiper-container {
+  width: 100%;
+  padding-top: 50px;
+}
+.swiper-wrapper {
+  height: 40%;
+}
+.test {
+  width: 100%;
+  height: 40px;
+}
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  -webkit-box-reflect: below 1px
+    linear-gradient(transparent, transparent, #0006);
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  border-radius: 5%;
+}
+.pagination-arrow {
+  border: none !important;
+}
+.Gallerypagination a {
+  width: 2em;
+  height: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px !important;
+}
+/* -------------- END Gallery -------------------------- */
+
+/* --------------Scrolling smoothly -------------------------- */
+html {
+  scroll-behavior: smooth;
+}
+
+/* zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+ */
+/* -----------------About us ----------------------------------------*/
+
+.tabsLine {
+  border-bottom: 1px solid rgb(216, 216, 216) !important;
+}
+.valuesTab .active {
+  background-color: var(--MainColor) !important;
+  color: white !important;
+}
+.valuesTab .active:focus {
+  background-color: var(--MainColor) !important;
+  color: white !important;
+}
+
+#Counter {
+  background-image: url(../imgs/backgroundHomeHeader.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.counterCard {
+  border-radius: 25px;
+}
+.counterCard h6 {
+  font-size: 0.9em;
+}
+.valuesTab .nav-link {
+  padding: 5px;
+}
+
+/* zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+ */
+/* -----------------Doctors page ----------------------------------------*/
+
+/* -------------- Doctors -------------------------- */
+
+.DoctorCard:hover .caption {
+  opacity: 1;
+}
+.DoctorsCardContainer .nav-link {
+  border-radius: 30px;
+}
+.DoctorTabs .active {
+  background-color: var(--MainColor) !important;
+  color: white !important;
+}
+
+.DoctorTabs .nav-link:focus {
+  color: white !important;
+}
+.DoctorTabs .nav-link {
+  border: 1px solid var(--MainColor);
+  width: 120px;
+}
+
+/* -------------- End Doctors -------------------------- */
+
+/* zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+ */
+/* -----------------Contact  us ----------------------------------------*/
+.onecard {
+  transition: all 0.5s;
+}
+.onecard:hover {
+  transform: translateY(-10%);
+}
+.card {
+  height: 10em;
+  background-color: var(--SecondColor);
+  border: none;
+  border-radius: 25px;
+  padding: 3px;
+}
+.contactusCaption p {
+  color: black !important;
+  font-size: 1em;
+}
+.card h3 {
+  font-size: 2em;
+}
+.imgContainer {
+  border-radius: 50%;
+  padding: 20px;
+  position: absolute;
+  bottom: 60%;
+  width: 100%;
+}
+.imgCircle {
+  background-color: rgb(255, 255, 255);
+  border: 1px solid var(--MainColor);
+  width: 80px;
+  height: 80px;
+}
+.contactimg {
+  width: 50px !important;
+}
+.card .icons {
+  margin: auto;
+  width: 5.3em;
+  height: 5.3em;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--MainColor);
+}
+
+/* zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+ */
+/* -----------------Appointment ----------------------------------------*/
+
+/* appointment Form */
+
+.rating > input {
+  display: none;
+}
+.rating > label {
+  position: relative;
+  width: 0.3em;
+  color: #ffd600;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.rating > label::before {
+  content: "\2605";
+  position: absolute;
+  opacity: 1;
+}
+
+.successImg {
+  width: 15%;
+  margin-bottom: 20px;
+}
+.reservationForm {
+  font-size: 0.8em;
+}
+.modal-dialog {
+  max-width: 700px;
+}
+.reservationForm label {
+  margin: 0;
+  padding: 0;
+}
+
+/* zzzzzzzzzzzzzzzzzzzzzzzzzzzzzz*/
+
+/* zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+ */
+/* -----------------Gallery ----------------------------------------*/
+
+/* zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz */
+.newsCaption {
+  font-size: 0.9em;
+}
+.newsParagraph {
+  line-height: 2.5em;
+}
+
+/* lightBOx */
+
+.iconGrid {
+  width: 2.5%;
+  cursor: pointer;
+}
+.image {
+  cursor: pointer;
+}
+
+.preview-box {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0.9);
+  background-color: white;
+  max-width: 1000px;
+  width: 90%;
+  z-index: 10000;
+  opacity: 0;
+  pointer-events: none;
+  border-radius: 3px;
+  padding: 0 5px 5px 5px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+}
+.preview-box.show {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translate(-50%, -50%) scale(1);
+  transition: all 0.3s ease;
+}
+.preview-box .details {
+  display: flex;
+  align-items: center;
+  padding: 12px 15px 12px 10px;
+  justify-content: space-between;
+}
+.preview-box .details .title {
+  display: flex;
+  font-size: 18px;
+  font-weight: 400;
+}
+.details .title p {
+  margin: 0 5px;
+}
+.details .title p.current-img {
+  font-weight: 500;
+}
+.details .icon {
+  color: #007bff;
+  font-size: 20px;
+  cursor: pointer;
+}
+.preview-box .image-box {
+  display: flex;
+  width: 100%;
+  position: relative;
+}
+.image-box .slide {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  height: 40px;
+  width: 40px;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 3px;
+  background-color: var(--MainColor);
+  border-radius: 50%;
+}
+.slide.prev {
+  left: 10px;
+}
+.slide.next {
+  right: 10px;
+}
+.image-box img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+
+  border-radius: 0 0 3px 3px;
+}
+.shadow {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 9000;
+  display: none;
+  background: rgba(0, 0, 0, 0.45);
+}
+.closeIcon {
+  font-size: 1.5em;
+}
+.page-link:active {
+  background-color: var(--MainColor) !important;
+}
+.Gallerypagination {
+  display: inline-block;
+}
+
+.Gallerypagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: all 0.3s;
+  border: 1px solid #ddd;
+  border-radius: 50%;
+}
+
+.Gallerypagination a.active {
+  background-color: var(--MainColor);
+  color: white;
+  border: 1px solid var(--MainColor);
+}
+
+.Gallerypagination a:hover:not(.active) {
+  background-color: #ddd;
+}
+
+/* zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+ */
+/* -----------------News ----------------------------------------*/
+
+.categoryLinks p:hover {
+  color: var(--MainColor) !important;
+}
+.searchButton {
+  border: none !important;
+  border-radius: 0px 5px 5px 0px;
+}
+.searchInput {
+  height: 36px;
+  border-radius: 5px 0px 0px 5px;
+  font-size: 14px;
+}
+.popularArticlesDates {
+  font-size: 12px;
+  margin-top: 5px;
+}
+.P-A-Container {
+  align-items: center;
+}
+
+.P-A-imgs {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/* card */
+
+.oneCardNews {
+  box-shadow: 0px 0px 15px rgb(0 0 0 / 10%);
+}
+
+.breakLineCard {
+  width: 100%;
+  height: 2px;
+  display: block;
+  background-color: var(--SecondColor);
+  position: relative;
+}
+.breakLineCard::before {
+  content: "";
+  position: absolute;
+  background-color: var(--MainColor);
+  width: 25%;
+  height: 5px;
+}
+.cardImg {
+  object-fit: cover;
+  height: 230px;
+}
+.poster {
+  position: relative;
+}
+.post-date {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  bottom: -40px;
+  left: 20px;
+  border-radius: 5%;
+  transition: all 0.5s;
+}
+.post-date p {
+  font-size: 2em;
+  color: white;
+  margin: 0px;
+}
+.read-more {
+  position: absolute;
+  bottom: 4px;
+  left: 40px;
+  border-radius: 5%;
+}
+.read-more:hover {
+  color: white !important;
+}
+
+.frame {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(124 34 34 / 56%);
+  opacity: 0;
+  transition: all 0.5s;
+  border-radius: 5px;
+}
+
+.oneCardNews:hover .frame {
+  opacity: 1;
+}
+
+.oneCardNews:hover .post-date {
+  background-color: rgb(187, 0, 0) !important;
+}
+.oneCardNews:hover .read-more {
+  background-color: rgb(187, 0, 0) !important;
+}
+.txt2 {
+  font-size: 1em;
+}
+.txt1 {
+  font-size: 1.5em;
+}
+
+/* zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+ */
+/* -----------------News Details ----------------------------------------*/
+.box-Header::before {
+  content: "";
+  width: 20%;
+  height: 4px;
+  background-color: var(--MainColor);
+
+  position: absolute;
+  top: 45px;
+  left: 5%;
+}
+.blogHeader {
+  position: relative;
+}
+
+.dateHeader {
+  width: 80px;
+  height: 90px;
+  background-color: var(--MainColor) !important;
+  color: white !important;
+  border-radius: 20%;
+  position: absolute;
+  right: 40px;
+  bottom: -40px;
+}
+.blogHeader p {
+  padding: 0;
+  margin: 0;
+  font-size: 2em;
+  font-weight: 900;
+}
+.box {
+  position: relative;
+}
+.box-Header-article::before {
+  content: "";
+  width: 20%;
+  height: 4px;
+  background-color: var(--MainColor);
+  position: absolute;
+  top: 28px;
+  left: 1px;
+}
+.lower-content {
+  line-height: 1.9em;
+}
+.mainSection {
+  box-shadow: 0px 0px 15px rgb(0 0 0 / 10%);
+}
+
+.breakLineCard {
+  width: 100%;
+  height: 2px;
+  display: block;
+  background-color: var(--SecondColor);
+  position: relative;
+}
+.breakLineCard::before {
+  content: "";
+  position: absolute;
+  background-color: var(--MainColor);
+  width: 25%;
+  height: 5px;
+}
+.popularArticlesDates {
+  font-size: 12px;
+  margin-top: 5px;
+}
+.box p {
+  color: black !important;
+  font-size: 14px;
+}
+
+/* zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+ */
+/* -----------------FAQ ----------------------------------------*/
+#FAQ .newsCaption {
+  font-size: 0.9em;
+}
+#FAQ .newsParagraph {
+  line-height: 2.5em;
+}
+
+#FAQ .mainSection::first-letter {
+  font-size: 800%;
+  color: var(--MainColor);
+}
+
+/* search */
+
+#FAQ .search {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+#FAQ .searchTerm:focus {
+  color: #00b4cc;
+}
+
+#FAQ .searchButton {
+  width: 40px;
+
+  border: 1px solid var(--MainColor);
+  background: var(--MainColor);
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+.icon {
+  width: 25px !important;
+  object-fit: contain;
+}
+/*
+.arrowContainer {
+  width: 40px;
+  height: 40px;
+  background-color: var(--SecondColor) !important;
+  border-radius: 50%;
+}
+*/
+
+#FAQ .rotate-icon {
+  font-size: 2em;
+}
+#FAQ .iconOne {
+  transform: rotate(180deg);
+}
+
+#FAQ .rotate {
+  transform: rotate(180deg);
+}
+
+/* zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+ */
+/* -----------------Register ----------------------------------------*/
+
+#Register {
+  background-image: url(../imgs/backgroundHomeHeader.jpg);
+  width: 100%;
+  min-height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.formContainer {
+  border-radius: 150px 0px 150px 0px;
+}
+
+/* zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+ */
+/* -----------------login ----------------------------------------*/
+
+#Login {
+  background-image: url(../imgs/backgroundHomeHeader.jpg);
+  width: 100%;
+  min-height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.login {
+  background: var(--MainColor) !important;
+  color: #ffffff !important;
+  border-radius: 150px 0px 150px 0px;
+}
+.form-check-input {
+  width: 20px;
+  height: 20px;
+  border-radius: 50% !important;
+}
+.form-check-label {
+  margin-left: 6px;
+}
+/* zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+ */
+/* -----------------User profile ----------------------------------------*/
+
+.infodetails p {
+  color: black !important;
+  font-size: 1em !important;
+  margin-top: 15px;
+}
+.infodetails p span {
+  color: rgb(143, 142, 142) !important;
+  font-size: 0.9em !important;
+}
+.modal input {
+  font-size: 0.8em !important;
+}
+#myFile {
+  margin-top: 5px;
+  width: 190px;
+}
+.messageimg {
+  width: 90px !important;
+  height: 90px;
+}
+.messagedate {
+  font-size: 0.8em;
+}
+.messageContent {
+  margin: 0px;
+  font-size: 0.7em;
+}
+
+.nav-pills .active {
+  background-color: var(--MainColor) !important;
+  color: white !important;
+}
+
+.nav-pills .active:focus {
+  background-color: var(--MainColor) !important;
+  color: white !important;
+}
+
+.nav-pills .active:hover {
+  background-color: var(--MainColor) !important;
+  color: white !important;
+}
+.close {
+  right: 15px;
+}
+.uploadicon {
+  width: 50px !important;
+  height: 50px;
+}
+.img-Upload {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+}
+.uplpoadContainer {
+  position: absolute;
+  top: 1px;
+  right: 1px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--MainColor);
+  border-radius: 50%;
+}
+.cameraIcon {
+  font-size: 2em;
+  color: white;
+}
+.img-Upload::-webkit-file-upload-button {
+  visibility: hidden;
+}
+#v-pills-Appointments {
+  overflow: hidden;
+}
+.uploadImgContainer {
+  width: 150;
+  height: 150;
+  border-radius: 50%;
+}
+
+/* zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+ */
+/* -----------------Doctor info ----------------------------------------*/
+
+/* Header */
+#doctorHeader {
+  background-image: url(../imgs/Gallary/5.jpg);
+  width: 100%;
+  height: 100vh;
+  min-height: 700px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  overflow: hidden;
+  color: white;
+}
+.docFrame {
+  position: absolute;
+  height: 100vh;
+  min-height: 700px;
+  top: 0;
+  right: 0;
+  width: 100%;
+
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.DoctorName {
+  position: relative;
+  font-size: 3.6em;
+  font-weight: 900;
+  line-height: 1.1em;
+
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.docheaderImg {
+  min-height: 70%;
+  width: 100%;
+  height: fit-content;
+}
+.bgMainColor:hover {
+  color: white !important;
+}
+
+.iconscontainer {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.socialicons a {
+  color: white !important;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+/* ------------------about us ------------------- */
+.docAboutUsImg {
+  border-radius: 37% 34% 29% 37% / 62% 44% 37% 39% !important;
+}
+
+.doctorOneCaption {
+  border-left: solid 2px var(--MainColor);
+  position: relative;
+}
+.docCaption span {
+  color: rgb(250, 0, 0);
+}
+.docCaption p {
+  margin: 0px;
+}
+.doctorOneCaption::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 97.9%;
+  width: 20px;
+  height: 20px;
+  background-color: var(--MainColor);
+  border-radius: 50%;
+}
+/* ------------------ Awards counter ------------------- */
+
+#Awards {
+  background-image: url(../imgs/backgroundHomeHeader.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.awardCounterCard {
+  min-width: 120px;
+  border-radius: 25px;
+}
+.awardCounterCard h6 {
+  font-size: 0.9em;
+}
+
+/* End - counter */
+
+/* schadual */
+.align-middle {
+  height: 130px;
+}
+.tdCenter {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* -------------- Testimonial -------------------------- */
+
+.doctestemonialCaption {
+  border: 1px solid rgb(151 149 149) !important;
+  border-radius: 25px 25px;
+}
+.docrating {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+}
+
+.docrating > input {
+  display: none;
+}
+.docrating > label {
+  position: relative;
+  width: 0.5em;
+  font-size: 2vw;
+  color: #ffd600;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.docrating > label::before {
+  content: "\2605";
+  position: absolute;
+  opacity: 1;
+}
+/*
+
+.rating > label:hover:before,
+.rating > label:hover ~ label:before {
+  opacity: 1 !important;
+}
+
+.rating > input:checked ~ label:before {
+  opacity: 1;
+}
+*/
+
+#docTestemonial .owl-dots {
+  margin-top: 2rem;
+  text-align: center;
+}
+#docTestemonial .owl-dots button {
+  background-color: rgb(142, 142, 143);
+
+  border-radius: 50%;
+  width: 10px;
+  height: 11px;
+  margin: 5px;
+}
+#docTestemonial .owl-dots button:focus {
+  outline: none;
+  background-color: var(--MainColor) !important;
+}
+#docTestemonial .owl-dot .active:focus {
+  border: 0px solid !important;
+}
+
+#docTestemonial .owl-nav {
+  display: none;
+}
+.owl-dots .active {
+  background-color: var(--MainColor) !important;
+}
+/* -------------- End Testimonial -------------------------- */
+
+/* --------------Scrolling smoothly -------------------------- */
+html {
+  scroll-behavior: smooth;
+}
